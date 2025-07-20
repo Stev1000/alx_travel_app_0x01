@@ -1,15 +1,24 @@
 # alx_travel_app_0x00
 
-This is a Django-based travel app with listings, bookings, and reviews.
+This is a Django project that provides APIs for managing travel listings, bookings, and reviews.
 
 ## Features
 
-- View and create property listings
-- Book properties
-- Submit reviews
+- Create, list, and manage travel properties
+- Book listings by date
+- Submit and view reviews
 
-## Setup
+## Setup Instructions
 
-1. `pip install -r requirements.txt`
-2. `python manage.py makemigrations && migrate`
-3. `python manage.py seed`
+1. Install dependencies:
+
+pip install -r requirements.txt
+
+ Run migrations:
+python manage.py migrate
+
+Seed database:
+python manage.py seed
+
+Start server:
+python manage.py runserver
