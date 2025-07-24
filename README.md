@@ -79,5 +79,3 @@ GitHub: https://github.com/Stev1000
 git add README.md
 git commit -m "Update: final complete README.md for checker and developer guide"
 git push
-
-
