@@ -3,7 +3,7 @@
 
 This project is part of ALX Software Engineering program.
 
-## alx_travel_app_0x00
+## alx_travel_app_0x01
 
 This is a Django RESTful application for managing travel listings, bookings, and reviews.
 
