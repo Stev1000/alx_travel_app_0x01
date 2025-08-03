@@ -52,24 +52,21 @@ python manage.py createsuperuser
 # 7. Run the server
 python manage.py runserver
 
-API Endpoints
-GET /api/listings/ — List all listings
+```
 
-POST /api/listings/ — Create a new listing
+## API Endpoints
 
-GET /api/bookings/ — List all bookings
+- `GET /api/listings/` — List all listings  
+- `POST /api/listings/` — Create a new listing  
+- `GET /api/bookings/` — List all bookings  
+- `POST /api/bookings/` — Create a new booking  
 
-POST /api/bookings/ — Create a new booking
+## Author
 
-Author
-Project by Stevo
+Project by Stevo  
+GitHub: [https://github.com/Stev1000](https://github.com/Stev1000)
 
-GitHub: https://github.com/Stev1000
-
-
----
-
-### 🔁 Then in terminal:
+### 🔁 Then in terminal
 
 ```bash
 git add README.md
