@@ -1,11 +1,10 @@
-
-# Project Overview
-
-This project is part of ALX Software Engineering program.
-
-## alx_travel_app_0x01
+# alx_travel_app_0x01
 
 This is a Django RESTful application for managing travel listings, bookings, and reviews.
+
+## Project Overview
+
+This project is part of ALX Software Engineering program.
 
 ## Project Structure
 
@@ -28,36 +27,32 @@ This is a Django RESTful application for managing travel listings, bookings, and
 
 ## Setup Instructions
 
-Follow these steps to set up and run the project locally.
-
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Stev1000/alx_travel_app_0x00.git
-cd alx_travel_app_0x00
+git clone https://github.com/Stev1000/alx_travel_app_0x01.git
+cd alx_travel_app_0x01
 
-# 2. Create a virtual environment and activate it
+# 2. Create and activate a virtual environment
 python -m venv venv
 .\venv\Scripts\activate
 
-# 3. Install project dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Apply database migrations
+# 4. Apply migrations
 python manage.py makemigrations
 python manage.py migrate
 
-# 5. Seed the database with sample data
+# 5. Seed the database
 python manage.py seed
 
-# 6. Create a superuser (optional)
+# 6. (Optional) Create a superuser
 python manage.py createsuperuser
 
-# 7. Run the development server
+# 7. Run the server
 python manage.py runserver
 
 API Endpoints
-Here are some sample endpoints you can test using Postman or cURL:
-
 GET /api/listings/ — List all listings
 
 POST /api/listings/ — Create a new listing
@@ -67,29 +62,16 @@ GET /api/bookings/ — List all bookings
 POST /api/bookings/ — Create a new booking
 
 Author
-Project by [Your Name]
+Project by Stevo
 
 GitHub: https://github.com/Stev1000
 
 
 ---
 
-### ✅ Next Steps:
-
-1. Replace `README.md` in your root directory with this exact content.
-2. Save the file.
-3. Then push your changes:
+### 🔁 Then in terminal:
 
 ```bash
 git add README.md
-git commit -m "Update: final complete README.md for checker and developer guide"
+git commit -m "Fix: clean and correct README.md for ALX checker"
 git push
-
-# alx_travel_app_0x01
-
-This project implements an API for Listings and Bookings using Django and Django REST Framework.
-
-## Features
-- List and manage travel listings
-- Book and review listings
-- RESTful API endpoints
