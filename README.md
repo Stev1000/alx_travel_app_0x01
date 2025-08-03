@@ -84,3 +84,12 @@ GitHub: https://github.com/Stev1000
 git add README.md
 git commit -m "Update: final complete README.md for checker and developer guide"
 git push
+
+# alx_travel_app_0x01
+
+This project implements an API for Listings and Bookings using Django and Django REST Framework.
+
+## Features
+- List and manage travel listings
+- Book and review listings
+- RESTful API endpoints
